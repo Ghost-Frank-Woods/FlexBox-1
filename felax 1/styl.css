@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    background-color: rgb(46, 44, 31);
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.flex-continer{
+    display: flex;
+    color: black;
+    background-color: forestgreen;
+    padding: 20px 0;
+    justify-content: center;
+
+    
+}
+
+
+.menu{
+
+    display: flex;
+    border: 1px fuchsia solid;
+    justify-content: space-around;
+    width:900px;
+/* 
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-flow: column wrap;  */
+
+
+}
+
+
+.group{
+justify-content: flex-end;
+    display: flex;
+
+
+}
+
+.login{
+    margin-left: 30px;
+}
+
+.singup{
+
+    margin-left: 30px;
+
+}
